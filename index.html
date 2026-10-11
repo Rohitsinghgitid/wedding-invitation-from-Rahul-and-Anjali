@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Rahul Dev Weds Anjali Singh | Wedding Invitation</title>
+  <meta name="description"
+    content="You are cordially invited to the auspicious wedding of Rahul Dev and Anjali Singh." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=9" />
+</head>
+
+<body>
+
+  <!-- Floating gold particles -->
+  <div class="particles" id="particles"></div>
+
+
+
+  <!-- ================================
+       PAGES WRAPPER
+  ================================ -->
+  <div class="pages-wrapper" id="pagesWrapper">
+
+    <!-- ============================
+         PAGE 1 — WELCOME
+    ============================ -->
+    <section class="page active" id="page-1">
+
+      <div class="temple-bg"></div>
+      <div class="temple-overlay"></div>
+      <div class="top-border-strip"></div>
+      <div class="bottom-border-strip"></div>
+
+      <div class="page1-content">
+
+        <div class="ganesh-wrap anim delay-1">
+          <img src="ganesh_logo.png" alt="Lord Ganesha" class="ganesh-logo" />
+          <div class="ganesh-glow"></div>
+        </div>
+
+        <div class="gold-divider anim delay-2">
+          <span class="d-line"></span><span class="d-diamond">◆</span><span class="d-line"></span>
+        </div>
+
+        <p class="invited-label anim delay-2">You Are Invited For The Wedding Of</p>
+
+        <h1 class="couple-names anim delay-3">
+          Rahul Dev <span class="weds-word">Weds</span> Anjali Singh
+        </h1>
+
+        <div class="parents-lineage anim delay-4">
+          <p class="parent-line">
+            <span class="parent-prefix">Son of</span> Smt. Seeta Devi &amp; Sh. Devendra Singh Baghel
+          </p>
+          <div class="parent-sparkle">✦</div>
+          <p class="parent-line">
+            <span class="parent-prefix">Daughter of</span> Smt. Pushpa Devi &amp; Sh. Mahesh Singh Baghel
+          </p>
+          <div class="lineage-rsvp-tag">
+            <a href="tel:6264587859" class="lineage-rsvp-link" title="Call: 6264587859">
+              <span class="lr-icon">📞</span> Mob- <span class="lr-num">6264587859</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="gold-divider anim delay-4">
+          <span class="d-line"></span><span class="d-diamond">◆</span><span class="d-line"></span>
+        </div>
+
+        <div class="open-btn-wrap anim delay-5">
+          <button class="open-btn" id="openInviteBtn" onclick="goToPage(2)">
+            <span class="open-btn-inner">
+              <span class="open-icon">🪷</span>
+              <span class="open-text">Open Invitation</span>
+              <span class="open-arrow">→</span>
+            </span>
+            <span class="open-btn-shine"></span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================
+         PAGE 2 — VENUE & EVENTS
+    ============================ -->
+    <section class="page" id="page-2">
+
+      <div class="venue-bg"></div>
+      <div class="venue-overlay"></div>
+      <div class="top-border-strip"></div>
+      <div class="bottom-border-strip"></div>
+
+      <div class="page2-content">
+
+        <!-- Header -->
+        <div class="p2-header">
+          <div class="ganesh-mini-wrap">
+            <img src="ganesh_logo.png" alt="Ganesha" class="ganesh-mini" />
+          </div>
+          <h2 class="p2-title">Wedding Celebrations</h2>
+          <div class="gold-divider wide">
+            <span class="d-line"></span><span class="d-diamond">◆</span><span class="d-line"></span>
+          </div>
+        </div>
+
+        <!-- Event Cards -->
+        <div class="events-grid">
+
+          <!-- Card 1: Haldi & Mehndi -->
+          <div class="event-card" id="card-haldi">
+            <div class="event-icon-wrap">
+              <span class="event-emoji">🌿</span>
+            </div>
+            <div class="event-info">
+              <h3 class="event-name">Haldi &amp; Mehndi</h3>
+              <div class="event-divider"></div>
+              <div class="event-meta">
+                <div class="meta-row">
+                  <span class="meta-icon">📅</span>
+                  <span class="meta-text">30th November, 2026</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-icon">🕐</span>
+                  <span class="meta-text">1:00 PM – 3:00 PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Mandap -->
+          <div class="event-card" id="card-mandap">
+            <div class="event-icon-wrap">
+              <span class="event-emoji">🔥</span>
+            </div>
+            <div class="event-info">
+              <h3 class="event-name">Mandap Ceremony</h3>
+              <div class="event-divider"></div>
+              <div class="event-meta">
+                <div class="meta-row">
+                  <span class="meta-icon">📅</span>
+                  <span class="meta-text">30th November, 2026</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-icon">🕐</span>
+                  <span class="meta-text">4:00 PM – 6:00 PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Barat Prasthan -->
+          <div class="event-card highlight-card" id="card-barat">
+            <div class="event-icon-wrap">
+              <span class="event-emoji">🎺</span>
+            </div>
+            <div class="event-info">
+              <h3 class="event-name">Barat Prasthan</h3>
+              <div class="event-divider"></div>
+              <div class="event-meta">
+                <div class="meta-row">
+                  <span class="meta-icon">📅</span>
+                  <span class="meta-text">2nd December, 2026</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-icon">🕖</span>
+                  <span class="meta-text">7:00 PM Onwards</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- /events-grid -->
+
+        <!-- Page 2 Navigation Buttons -->
+        <div class="page2-nav-wrap">
+          <button class="nav-action-btn home-nav-btn" id="homeBtn" onclick="goToPage(1)">
+            <span class="action-btn-inner">
+              <span class="nav-arrow">←</span>
+              <span class="nav-icon">🏛️</span>
+              <span class="nav-text">Home</span>
+            </span>
+            <span class="nav-btn-shine"></span>
+          </button>
+
+          <button class="nav-action-btn barat-nav-btn" id="baratBtn" onclick="goToPage(3)">
+            <span class="action-btn-inner">
+              <span class="nav-icon">🎺</span>
+              <span class="nav-text">Barat &amp; Varmala</span>
+              <span class="nav-arrow">→</span>
+            </span>
+            <span class="nav-btn-shine"></span>
+          </button>
+        </div>
+
+      </div>
+      <!-- /page2-content -->
+
+    </section>
+    <!-- /page-2 -->
+
+    <!-- ============================
+         PAGE 3 — BARAT & VARMALA
+    ============================ -->
+    <section class="page" id="page-3">
+      <div class="venue-bg" style="filter:hue-rotate(20deg) brightness(0.8);"></div>
+      <div class="venue-overlay"></div>
+      <div class="top-border-strip"></div>
+      <div class="bottom-border-strip"></div>
+
+      <div class="page3-content">
+
+        <!-- Header -->
+        <div class="p3-header">
+          <h2 class="p3-title">Barat &amp; Varmala</h2>
+          <div class="gold-divider wide">
+            <span class="d-line"></span><span class="d-diamond">◆</span><span class="d-line"></span>
+          </div>
+        </div>
+
+        <!-- Two-column layout -->
+        <div class="barat-grid">
+
+          <!-- LEFT — Barat Departure -->
+          <div class="barat-card" id="card-departure">
+            <div class="card-top-info">
+              <div class="barat-card-icon-wrap">
+                <span class="barat-card-emoji">🏠</span>
+              </div>
+              <h3 class="barat-card-title">Barat Prasthan</h3>
+              <div class="barat-card-divider"></div>
+              <p class="barat-card-label">Barat Moves From Our Residence</p>
+              <p class="barat-card-address">
+                H.N. 464/8, Vishal Nagar Phase 3,<br>
+                Neelbad, Bhopal<br>
+                <span class="barat-pin">PIN – 462044</span>
+              </p>
+            </div>
+
+            <a href="https://maps.google.com/?q=23.188401,77.350055" target="_blank" rel="noopener noreferrer"
+              class="qr-link-container" title="Open Google Maps for Residence">
+              <div class="qr-wrap">
+                <img src="qr_residence.png" alt="Google Maps QR - Residence" class="qr-img" />
+              </div>
+              <span class="qr-maps-btn">
+                <span class="map-icon">📍</span> Open in Maps ↗
+              </span>
+              <span class="qr-hint">Scan QR or tap to open</span>
+            </a>
+          </div>
+
+          <!-- RIGHT — Marriage Garden -->
+          <div class="barat-card highlight-card" id="card-garden">
+            <div class="card-top-info">
+              <div class="barat-card-icon-wrap">
+                <span class="barat-card-emoji">🏛️</span>
+              </div>
+              <h3 class="barat-card-title">Marriage Garden</h3>
+              <div class="barat-card-divider"></div>
+              <p class="barat-card-label">Venue for Wedding Ceremony</p>
+              <p class="barat-card-address">
+                Sagar Marriage Garden &amp; Resort,<br>
+                Near DPS Chouraha, Neelbad, Bhopal<br>
+                <span class="barat-pin">PIN – 462044</span>
+              </p>
+            </div>
+
+            <a href="https://maps.app.goo.gl/Ng7DCFVVqg1L1rWC6?g_st=aw" target="_blank" rel="noopener noreferrer"
+              class="qr-link-container" title="Open Google Maps for Sagar Marriage Garden & Resort">
+              <div class="qr-wrap">
+                <img src="sagar_garden_qr.png?v=5" alt="Google Maps QR - Sagar Marriage Garden & Resort"
+                  class="qr-img" />
+              </div>
+              <span class="qr-maps-btn">
+                <span class="map-icon">📍</span> Open in Maps ↗
+              </span>
+              <span class="qr-hint">Scan QR or tap to open</span>
+            </a>
+          </div>
+
+        </div>
+        <!-- /barat-grid -->
+
+
+
+        <!-- Page 3 Navigation Buttons -->
+        <div class="page3-nav-wrap">
+          <button class="nav-action-btn back-nav-btn" id="backToEventsBtn" onclick="goToPage(2)">
+            <span class="action-btn-inner">
+              <span class="nav-arrow">←</span>
+              <span class="nav-icon">📅</span>
+              <span class="nav-text">Back to Events</span>
+            </span>
+            <span class="nav-btn-shine"></span>
+          </button>
+        </div>
+
+      </div>
+      <!-- /page3-content -->
+
+    </section>
+
+  </div>
+  <!-- /pages-wrapper -->
+
+  <!-- Page dots -->
+  <nav class="page-dots" id="pageDots">
+    <button class="pdot active" data-page="1" onclick="goToPage(1)" title="Welcome"></button>
+    <button class="pdot" data-page="2" onclick="goToPage(2)" title="Events"></button>
+    <button class="pdot" data-page="3" onclick="goToPage(3)" title="Barat"></button>
+  </nav>
+
+  <script src="script.js?v=3"></script>
+</body>
+
+</html>
